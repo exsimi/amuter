@@ -103,7 +103,7 @@
 			$logInfo .= print_r($answer, true)."\r\n";
 			ToLog($logInfo);            
             if($answer['status'] == 'ok'){
-            Header('Location: success.html'); die();
+            Header('Location: /_success.html'); die();
             }else{
                 print_r ($answer);
                die();
