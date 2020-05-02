@@ -103,7 +103,7 @@
 			$logInfo .= print_r($answer, true)."\r\n";
 			ToLog($logInfo);            
             if($answer['status'] == 'ok'){
-            Header('Location: https://exsimi.github.io/amuler/success.html'); die();
+            Header('Location: https://exsimi.github.io/amuter/success.html'); die();
             }else{
                 print_r ($answer);
                die();
